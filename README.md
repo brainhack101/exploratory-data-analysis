@@ -4,10 +4,12 @@ Exploratory data analysis and various types of plots using the Iris dataset
 
 ## Getting started
 
-To run this notebook and all of these plots, start by cloning this repo and navigating to
-the current directory and running the following commands:
+To run this notebook and all of these plots, run the following commands:
 
 ```
+$ git clone git@github.com:brainhack101/exploratory-data-analysis.git
+$ cd exploratory-data-analysis
+$ mkdir env
 $ virtualenv env/exploratory-data-analysis -p python3.6
 $ source env/exploratory-data-analysis/bin/activate
 $ pip install jupyter numpy plotly scipy scikit-learn scikit-image
