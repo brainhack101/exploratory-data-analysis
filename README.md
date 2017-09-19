@@ -16,6 +16,8 @@ $ pip install jupyter numpy plotly scipy scikit-learn scikit-image
 $ jupyter-notebook --NotebookApp.iopub_data_rate_limit=10000000000
 ```
 
+If you're using Anaconda, simply skip the "`mkdir`", "`virtualenv`", and "`source`" commands, and replace `pip` with `conda`.
+
 Then copy the URL returned by the last command into your browser; it should look something like this:
 
 > http://localhost:8889/?token=17bbe9525ee99e3...
