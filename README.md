@@ -13,7 +13,7 @@ $ mkdir env
 $ virtualenv env/exploratory-data-analysis -p python3.6
 $ source env/exploratory-data-analysis/bin/activate
 $ pip install jupyter numpy plotly scipy scikit-learn scikit-image
-$ jupyter-notebook --NotebookApp.iopub_data_rate_limit=10000000000
+$ jupyter-notebook --NotebookApp.iopub_data_rate_limit=1000000
 ```
 
 If you're using Anaconda, simply skip the "`mkdir`", "`virtualenv`", and "`source`" commands, and replace `pip` with `conda`.
